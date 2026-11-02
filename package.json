@@ -1,0 +1,32 @@
+{
+  "name": "tugas3-restful-2327240088",
+  "version": "1.0.0",
+  "description": "Tugas 3 RESTful API Bank Sampah dengan MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "restful-api",
+    "bank-sampah",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Michella Valery",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^4.22.3",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "commonjs"
+}
